@@ -1,0 +1,30 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavLeft>img{
+    width: 130px;
+    margin-top: 10px;
+}
+.NavRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 65px;
+}
+.NavRight>p{
+    margin-left: 30px;
+    font-size: medium;
+    width: 70px;
+    padding: 10px 20px;
+}
+.NavRight>input{
+    width: 200px;
+    height: 20px;
+}
+.NavRight>p:hover{
+    background-color: grey;
+    border-radius: 8px;
+
+}
